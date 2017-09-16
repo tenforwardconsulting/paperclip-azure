@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hoe (3.16.1)
+      rake (>= 0.8, < 13.0)
+    rake (12.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hoe
+
+BUNDLED WITH
+   1.15.4

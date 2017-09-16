@@ -105,6 +105,7 @@ And then execute:
 * Fork the project.
 * After checking out the source, run:
 
+      $ bundle install
       $ rake newb
 
   This task will install any missing dependencies, run the tests/specs, and generate the RDoc.
