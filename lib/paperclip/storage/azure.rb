@@ -229,7 +229,7 @@ module Paperclip
           while data = file.read(4.megabytes)
             block_id = "block_#{(count += 1).to_s.rjust(5, '0')}"
 
-            azure_interface.create_blob_block container_name, storage_path, block_id, data
+            azure_interface.put_blob_block container_name, storage_path, block_id, data
 
             blocks << [block_id]
           end
